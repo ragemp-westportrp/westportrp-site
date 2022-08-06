@@ -18,13 +18,11 @@ class EnumConst
     const ERROR_EMAIL_IS_CREATE = 'This email is create';
     const ERROR_SQL_ARRAY = 'Error params';
 
-    /*
-    * DATA BASE CONNECT PARAMS
-    */
-    const DB_HOST = '';
-    const DB_NAME = '';
-    const DB_USER = '';
-    const DB_PASS = '';
+    # DATA BASE CONNECT PARAMS
+    const DB_HOST = '127.0.0.1';
+    const DB_NAME = 'westport_default';
+    const DB_USER = 'root';
+    const DB_PASS = 'root';
 
     /*
     * DATA BASE TABLE
