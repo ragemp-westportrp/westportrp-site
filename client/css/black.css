@@ -1,0 +1,84 @@
+body {
+    font-size: 16px !important;
+    background-color: #151515 !important;
+}
+
+.bw-text {
+    color: #fff !important;
+}
+
+.bw {
+    background: #fff !important;
+}
+
+.wb-text {
+    color: #000 !important;
+}
+
+.wb {
+    background: #151515 !important;
+}
+
+rect {
+    fill: #212121 !important;
+    stroke: #3d3d3d !important;
+}
+
+.card-panel, .card, .collapsible-header, .collapsible-body, table, .dropdown-content, .modal, .modal .modal-footer {
+    background: #212121 !important;
+    color: #fff !important;
+}
+
+.dropdown-content li>a, .dropdown-content li>span {
+    color: #fff !important;
+}
+
+.btn-flat {
+    color: #E0E0E0;
+}
+
+input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea {
+    border-bottom: 1px solid rgba(160,160,160,0.2);
+    color: #fff;
+}
+
+table.dataTable tbody tr {
+    background-color: #212121 !important;
+}
+
+table.striped>tbody>tr:nth-child(odd) {
+    background: #424242 !important;
+}
+
+.collapsible-header, .collapsible-body, thead {
+    border-bottom: 1px solid rgba(160,160,160,0.2);
+}
+
+.modal.modal-fixed-footer .modal-footer {
+    border-top: 1px solid rgba(160,160,160,0.2) !important;
+}
+
+hr {
+    background-color: rgba(160,160,160,0.2) !important;
+}
+
+table.highlight>tbody>tr:hover {
+    background-color: rgba(160,160,160,0.2);
+}
+
+input::placeholder, textarea::placeholder {
+    color: rgba(160,160,160,0.2) !important;
+}
+
+.input-search {
+    background: #212121 !important;
+    color: #fff !important;
+}
+
+.chips .input {
+    color: #fff !important;
+}
+
+.logo {
+    filter: invert(1%) !important;
+}
